@@ -37,7 +37,6 @@ MIRNet introduces the following key components:
 
 The network is trained using a **hybrid loss function** combining:
 - **Charbonnier loss**: Robust loss for image restoration.
-- **L1 + L2 Regularization**: Ensures smooth training and reduces overfitting.
 
 Optimizer: **Adam**  
 Learning Rate Scheduler: **ReduceLROnPlateau**
